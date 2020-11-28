@@ -2,9 +2,9 @@ BrowserSync:
 node_modules/.bin/browser-sync start --server --files "css/*.css" "*.html"
 
 Autoprefixer:
-autoprefixer-cli -o main.prefixed.css main.css
+autoprefixer-cli -o style.prefixed.css style.css
 
 HTML-validate:
 npm install -g html-validate
-html-validate FILENAME..
+html-validate *.html
 
