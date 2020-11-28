@@ -1,0 +1,10 @@
+BrowserSync:
+node_modules/.bin/browser-sync start --server --files "css/*.css" "*.html"
+
+Autoprefixer:
+autoprefixer-cli -o main.prefixed.css main.css
+
+HTML-validate:
+npm install -g html-validate
+html-validate FILENAME..
+
